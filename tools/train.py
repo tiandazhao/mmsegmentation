@@ -5,7 +5,9 @@ import os
 import os.path as osp
 import time
 import warnings
-
+import sys
+sys.path.append("./")
+# print(sys.path)
 import mmcv
 import torch
 import torch.distributed as dist
